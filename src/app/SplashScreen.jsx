@@ -158,12 +158,16 @@ export default function SplashScreen({ children }) {
           <div
             className="relative min-h-screen flex items-center justify-center overflow-hidden w-full"
             style={{
+              background: 'linear-gradient(to bottom right, #0f172a, #1e293b, #000000)',
               backgroundImage: 'url(/stranger-things-loading.png)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
+              backgroundRepeat: 'no-repeat',
+              backgroundBlendMode: 'overlay'
             }}
           >
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-black/60 z-0"></div>
 
 
             {/* Content Container */}
