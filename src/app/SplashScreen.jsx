@@ -133,6 +133,12 @@ export default function SplashScreen({ children }) {
     // Check if we're on the root path
     const isRoot = typeof window !== 'undefined' && window.location.pathname === '/';
     setIsRootPath(isRoot);
+
+    // Check if countdown was already shown in this session
+    if (typeof window !== 'undefined' && sessionStorage.getItem('countdownShown') === 'true') {
+      setCountdownEnded(true);
+      setShowLoadingComplete(true);
+    }
   }, []);
 
   const handleCountdownEnd = () => {
