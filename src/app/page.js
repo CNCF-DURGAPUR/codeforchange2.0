@@ -255,11 +255,12 @@ export default function Home() {
                 {/* Green highlight overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent rounded-lg opacity-0 group-hover:opacity-10 transition duration-500" style={{ width: '100%', height: '100%' }}></div>
 
-                <img
+                <Image
                   src="/stranger-things-2827303-removebg-preview.png"
                   alt="Stranger Things"
+                  width={500}
+                  height={500}
                   className="relative w-full h-auto drop-shadow-2xl"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -677,9 +678,11 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-purple-500 to-red-600 rounded-full blur-2xl opacity-80 animate-pulse"></div>
                     <div className="absolute inset-0 bg-gradient-to-tr from-red-600 to-red-500 rounded-full blur-3xl opacity-70"></div>
                     <div className="absolute inset-0 bg-radial-gradient from-red-500 rounded-full blur-xl opacity-60"></div>
-                    <img
+                    <Image
                       src="/Michael_Wheeler-removebg-preview.png"
                       alt="Michael Wheeler"
+                      width={256}
+                      height={256}
                       className="relative h-64 w-auto object-contain drop-shadow-lg hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -879,9 +882,11 @@ export default function Home() {
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-purple-500 to-red-600 rounded-full blur-2xl opacity-80 animate-pulse"></div>
                     <div className="absolute inset-0 bg-gradient-to-tr from-red-600 to-red-500 rounded-full blur-3xl opacity-70"></div>
-                    <img
+                    <Image
                       src="/nancy-wheeler-photoroom.png"
                       alt="Nancy Wheeler"
+                      width={288}
+                      height={288}
                       className="relative h-72 w-auto object-contain drop-shadow-lg hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -902,9 +907,11 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-purple-500 to-red-600 rounded-full blur-2xl opacity-80 animate-pulse"></div>
                     <div className="absolute inset-0 bg-gradient-to-tr from-red-600 to-red-500 rounded-full blur-3xl opacity-70"></div>
                     <div className="absolute inset-0 bg-radial-gradient from-red-500 rounded-full blur-xl opacity-60"></div>
-                    <img
+                    <Image
                       src="/character-photoroom.png"
                       alt="Character"
+                      width={288}
+                      height={288}
                       className="relative h-72 w-auto object-contain drop-shadow-lg hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -989,9 +996,11 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-purple-500 to-red-600 rounded-full blur-2xl opacity-80 animate-pulse"></div>
                     <div className="absolute inset-0 bg-gradient-to-tr from-red-600 to-red-500 rounded-full blur-3xl opacity-70"></div>
                     <div className="absolute inset-0 bg-radial-gradient from-red-500 rounded-full blur-xl opacity-60"></div>
-                    <img
+                    <Image
                       src="/st-character-poster-photoroom.png"
                       alt="Stranger Things Poster"
+                      width={288}
+                      height={288}
                       className="relative h-72 w-auto object-contain drop-shadow-lg hover:scale-105 transition-transform duration-300"
                     />
                   </div>
